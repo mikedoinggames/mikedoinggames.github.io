@@ -1,0 +1,41 @@
+body{
+	background: #263238;
+	text-align: center;	overflow: hidden;
+
+}
+.content{
+	height: 100%;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	top: -437px;
+}
+.holder{
+    width: 100%;
+    height: 200px;
+	display: block;
+    overflow-y: scroll;
+    padding-right: 30px; /* Increase/decrease this value for cross-browser compatibility */
+}
+
+.skull{
+	background-image:url('skull.png');
+	width: 633px;
+	height: 637px;
+	display: block;
+	margin: auto;
+	position: relative;
+	z-index: 50;
+}
+
+.eyes{
+	background-image:url('eyes.png');
+	width: 633px;
+	height: 637px;
+	display: block;
+	margin: auto;
+	position: relative;
+	top: -200px;
+	z-index: 20;
+
+}
