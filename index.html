@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8"> 
@@ -20,8 +20,9 @@
 </div>
 </div>
 
+<div class="tagline">
 &lt;visible disappointment&gt;
-
+</div>
 
 
 </body>
@@ -35,9 +36,9 @@
 	$('.holder').animate({ scrollTop: 0 },1);
 	
 	function ScrollEyes(){
-		$('.holder').animate({ scrollTop: 400 },1000);
+		$('.holder').animate({ scrollTop: 400 },2600);
 	}
-	setInterval(function(){ScrollEyes();},1000);
-	setInterval(function(){$('.holder').animate({ scrollTop: 0 },1);},2000);
+    setInterval(function () { ScrollEyes(); }, 2600);
+    setInterval(function () { $('.holder').animate({ scrollTop: 0 }, 1); }, 200);
  });
 </script>

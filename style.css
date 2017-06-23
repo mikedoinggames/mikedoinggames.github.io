@@ -40,3 +40,10 @@ body{
 	z-index: 20;
 
 }
+
+.tagline {
+    color: #D92B00;
+    font-size: 260%;
+    position:relative;
+    top: -200px;
+}
