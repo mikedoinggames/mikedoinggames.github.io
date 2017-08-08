@@ -1,0 +1,178 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Tracking</h1>
+    <p class="lead">All players</p>
+    <p>@ViewBag.name</p>
+</div>
+
+<div class="row">
+
+    <div id="chartContainer"></div>
+
+
+</div>
+
+
+
+<script>
+
+    var attack;
+    var midfield;
+    var defence;
+    var keeper;
+
+    $.ajax({
+        url: 'FPLAPI/GetPlayersForScatterChart/4',
+        dataType: "json",
+        type: "GET",
+        contentType: 'application/json; charset=utf-8',
+        async: false,
+        processData: false,
+        cache: false,
+        delay: 15,
+        success: function (d) {
+            attack = d;
+        },
+        error: function (xhr) {
+            alert('error');
+        }
+    });
+    $.ajax({
+        url: 'FPLAPI/GetPlayersForScatterChart/3',
+        dataType: "json",
+        type: "GET",
+        contentType: 'application/json; charset=utf-8',
+        async: false,
+        processData: false,
+        cache: false,
+        delay: 15,
+        success: function (d) {
+            midfield = d;
+        },
+        error: function (xhr) {
+            alert('error');
+        }
+    });
+    $.ajax({
+        url: 'FPLAPI/GetPlayersForScatterChart/2',
+        dataType: "json",
+        type: "GET",
+        contentType: 'application/json; charset=utf-8',
+        async: false,
+        processData: false,
+        cache: false,
+        delay: 15,
+        success: function (d) {
+            defence = d;
+        },
+        error: function (xhr) {
+            alert('error');
+        }
+    });
+    $.ajax({
+        url: 'FPLAPI/GetPlayersForScatterChart/1',
+        dataType: "json",
+        type: "GET",
+        contentType: 'application/json; charset=utf-8',
+        async: false,
+        processData: false,
+        cache: false,
+        delay: 15,
+        success: function (d) {
+            keeper = d;
+        },
+        error: function (xhr) {
+            alert('error');
+        }
+    });
+
+
+    $(function () {
+        var myChart = Highcharts.chart('chartContainer', {
+            chart: {
+                type: 'scatter'
+            },
+            title: {
+                text: 'Players - Total Points vs Cost'
+            },
+
+            yAxis: {
+                title: {
+                    text: 'Total Points'
+                }
+            },
+            xAxis: {
+                title: {
+                    text: 'Cost'
+                }
+            },
+            series: [
+                {
+                name: 'Attack',
+                tooltip: {
+                    pointFormat: '{point.name} £{point.x}, {point.y}'
+                },
+                point: {
+                    events: {
+                        click: function () {
+                            location.href = 'home/player/' +
+                                this.options.key;
+                        }
+                    }
+                },
+                data: attack           
+    
+                },
+                                {
+                name: 'Midfield',
+                tooltip: {
+                    pointFormat: '{point.name} £{point.x}, {point.y}'
+                },
+                point: {
+                    events: {
+                        click: function () {
+                            location.href = 'home/player/' +
+                                this.options.key;
+                        }
+                    }
+                },
+                data: midfield
+                },
+                                                {
+                name: 'Defence',
+                tooltip: {
+                    pointFormat: '{point.name} £{point.x}, {point.y}'
+                },
+                point: {
+                    events: {
+                        click: function () {
+                            location.href = 'home/player/' +
+                                this.options.key;
+                        }
+                    }
+                },
+                data: defence
+                                },
+                                                 {
+                name: 'Keeper',
+                tooltip: {
+                    pointFormat: '{point.name} £{point.x}, {point.y}'
+                },
+                point: {
+                    events: {
+                        click: function () {
+                            location.href = 'home/player/' +
+                                this.options.key;
+                        }
+                    }
+                },
+                data: keeper
+                }
+            ]
+
+        });
+    });
+</script>

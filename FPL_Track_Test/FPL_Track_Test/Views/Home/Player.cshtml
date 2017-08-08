@@ -1,0 +1,68 @@
+﻿@model FPL_Track_Test.FPLAPI.Player
+
+@{
+    ViewBag.Title = Model.web_name;
+
+}
+
+<h2 class="playerheaders" style="background: @ViewBag.teamcolour ;">@Model.first_name @Model.second_name</h2>
+
+<div>
+    <h4 class="playerheaders" style="background: @ViewBag.teamcolour ;">@Model.team_name</h4>
+    <hr />
+    <div id="topbit">
+        <div id="imageholder">
+            <img src="@Model.image_url" />
+        </div>
+        <div id="statsholder">
+            CURRENT PRICE: £@Model.inGameCost <br/>
+            TOTAL POINTS: @Model.total_points <br/>
+            SELECTED BY: @Model.selected_by_percent% <br/>
+            POINTS PER GAME: @Model.points_per_game <br/>
+            MINUTES: @Model.minutes<br/>
+            FORM: @Model.form<br/>
+            GOALS: @Model.goals_scored<br/>
+            ASSISTS: @Model.assists<br/>
+            CLEAN SHEETS: @Model.clean_sheets<br/>
+            NEWS: @Model.news<br/>
+
+            NEXT FIVE GAMES: <span id="next5">...</span>
+            
+        </div>
+</div>
+    
+    <div id="fixtureContainer"><img src="~/Content/loadgif.gif" /><br/>Loading fixtures...</div>
+
+</div>
+<p>
+    @Html.ActionLink("Back", "Index")
+</p>
+
+
+<script>
+    var next5 = 0;
+    $.ajax({
+        url: '@Url.Action("GetFixturesForTeam","FPLAPI")/@Model.team_code',
+        dataType: "json",
+        type: "GET",
+        contentType: 'application/json; charset=utf-8',
+        async: true,
+        processData: false,
+        cache: false,
+        delay: 15,
+        success: function (d) {
+            $('#fixtureContainer').html('');
+            $.each(d, function (n, el) {
+                if (n < 5){
+                    next5 += el.difficulty;
+                }
+                $('#fixtureContainer').append('<li class="diff_' + el.difficulty + '">GW ' + el.event_ + ': ' + el.team_h_name + ' v ' +  el.team_a_name + '</li>');
+            })
+            next5 = (next5 / 5);
+            $('#next5').text(next5);
+        },
+        error: function (xhr) {
+            alert('error');
+        }
+    });
+</script>

@@ -1,0 +1,110 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+#topbit{
+    height: 220px;
+    margin-bottom: 2px;
+    padding-top:0;
+    display:inline-block;
+    width:100%;
+}
+
+#statsholder {
+    
+    width: 40%;
+    display: inline-block;
+    height: 220px;
+    vertical-align: top;
+    font-weight: bold;
+
+}
+
+#imageholder {
+    height: 220px;
+    width: 178px;
+    display: inline-block;
+    vertical-align: top
+}
+
+#imageholder > img{
+    height: 220px;
+    width: auto;
+}
+
+#fixtureContainer {
+    width: 100%;
+    outline: 2px solid #38003C;
+    padding: 2%;
+    height: 410px;
+    overflow-y: scroll;
+    text-align: center;
+}
+#fixtureContainer > img{
+    width: 100px;
+    height: 100px;
+}
+
+#fixtureContainer > li{
+    padding:1%;
+    list-style: none;
+    font-size: 130%;
+    text-align: left;
+}
+
+.diff_1 {
+    background: #257d5a;
+    color: #fff;
+}
+.diff_2 {
+    background: #00ff86;
+}
+.diff_3 {
+    background: #ebebe4;
+}
+.diff_4 {
+    background: #ff005a;
+    color: #fff;
+}
+.diff_5 {
+    background: #861d46;
+    color: #fff;
+}
+
+.playerheaders{
+    margin-bottom:0px;
+    padding: 5px;
+    font-size: 250%;
+    font-weight: bold;
+}
+ h4.playerheaders{
+    margin-top: 0px !important;
+    font-size: 180%;
+}

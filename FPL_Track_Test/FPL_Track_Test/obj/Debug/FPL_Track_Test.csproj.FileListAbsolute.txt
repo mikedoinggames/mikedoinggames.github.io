@@ -1,0 +1,152 @@
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\ApplicationInsights.config
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\csc.exe
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\csc.exe.config
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\csc.rsp
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\csi.exe
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\csi.rsp
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\System.AppContext.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\System.Collections.Immutable.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\System.IO.FileSystem.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\vbc.exe
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\vbc.exe.config
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\vbc.rsp
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\VBCSCompiler.exe
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\roslyn\VBCSCompiler.exe.config
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\FPL_Track_Test.dll.config
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\FPL_Track_Test.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\FPL_Track_Test.pdb
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Antlr3.Runtime.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\HtmlAgilityPack.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.Web.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.WindowsServer.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.ApplicationInsights.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Newtonsoft.Json.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Net.Http.Formatting.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Helpers.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Http.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Http.WebHost.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Mvc.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Optimization.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Razor.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.WebPages.Deployment.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.WebPages.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.WebPages.Razor.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\WebGrease.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\HtmlAgilityPack.pdb
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\HtmlAgilityPack.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Newtonsoft.Json.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Helpers.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Mvc.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Optimization.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Razor.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.WebPages.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.WebPages.Deployment.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.WebPages.Razor.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Antlr3.Runtime.pdb
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Net.Http.Formatting.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Http.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Http.WebHost.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.ApplicationInsights.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.WindowsServer.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.Web.xml
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\obj\Debug\FPL_Track_Test.csprojResolveAssemblyReference.cache
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\obj\Debug\FPL_Track_Test.dll
+c:\users\mmurray\documents\visual studio 2017\Projects\FPL_Track_Test\FPL_Track_Test\obj\Debug\FPL_Track_Test.pdb
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\ApplicationInsights.config
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\csc.exe
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\csc.exe.config
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\csc.rsp
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\csi.exe
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\csi.rsp
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\System.AppContext.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\vbc.exe
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\vbc.exe.config
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\vbc.rsp
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\FPL_Track_Test.dll.config
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\FPL_Track_Test.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\FPL_Track_Test.pdb
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Antlr3.Runtime.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\HtmlAgilityPack.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.Web.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Newtonsoft.Json.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Net.Http.Formatting.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Helpers.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Http.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Http.WebHost.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Mvc.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Optimization.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Razor.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.WebPages.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\WebGrease.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\HtmlAgilityPack.pdb
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\HtmlAgilityPack.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Newtonsoft.Json.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Helpers.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Mvc.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Optimization.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Razor.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.WebPages.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Antlr3.Runtime.pdb
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Net.Http.Formatting.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Http.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\System.Web.Http.WebHost.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\bin\Microsoft.AI.Web.xml
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\obj\Debug\FPL_Track_Test.csprojResolveAssemblyReference.cache
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\obj\Debug\FPL_Track_Test.dll
+C:\Users\Mike\Desktop\FPL_Track_Test\FPL_Track_Test\obj\Debug\FPL_Track_Test.pdb
