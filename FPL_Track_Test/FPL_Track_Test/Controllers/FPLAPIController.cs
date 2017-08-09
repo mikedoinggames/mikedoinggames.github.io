@@ -3,6 +3,7 @@ using FPL_Track_Test.Helpers;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -37,6 +38,8 @@ namespace FPL_Track_Test.Controllers
             JObject jObj = JObject.Parse(json);
             JToken jT = jObj["elements"];
             players = jT.ToObject<List<Player>>();
+
+            TeamColours tc = new TeamColours();
             
             foreach(Player p in players.Where(p => p.element_type == id))
             {
@@ -44,12 +47,23 @@ namespace FPL_Track_Test.Controllers
                     name = p.web_name,
                     x = p.now_cost / 10,
                     y = p.total_points,
-                    key = p.id.ToString()
+                    key = p.id.ToString(),
+                    color = tc.GetTeamColourByCode(p.team_code).colour,
+                    marker = new Dictionary<string, string>()
                 };
+                Debug.WriteLine(p.web_name + p.team_code);
                 result.Add(s);
             }
             return Json(result, JsonRequestBehavior.AllowGet);
             
+        }
+
+        [HttpGet]
+        public JsonResult GetTeams()
+        {
+            APICallers ac = new APICallers();
+            List<Team> teams = ac.GetTeams();
+            return Json(teams, JsonRequestBehavior.AllowGet);
         }
 
 

@@ -66,8 +66,9 @@ namespace FPL_Track_Test.Controllers
             TeamColours tc = new TeamColours();
 
             int teamId = APICallers.GetTeam(p.team_code).id;
-            ViewBag.teamcolour = tc.GetTeamColourById(teamId);
-     
+            ViewBag.teamcolour = tc.GetTeamColourById(teamId).colour;
+            ViewBag.teamTextcolour = tc.GetTeamColourById(teamId).textColour;
+
             return View(p);
         }
     }
