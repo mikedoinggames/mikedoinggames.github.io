@@ -13,33 +13,12 @@
 </div>
 
 <div class="row">
-
-    <div id="teamsContainer"></div>
+    NEXT 5 GAMES
+    <div id="teamsContainer"><img src="~/Content/loadgif.gif" /><br />Loading fixtures...</div>
 
 
 </div>
 
-
-<script>
-    $.ajax({
-        url: '@Url.Action("GetTeams", "FPLAPI")',
-        dataType: "json",
-        type: "GET",
-        contentType: 'application/json; charset=utf-8',
-        async: true,
-        processData: false,
-        cache: false,
-        delay: 15,
-        success: function (d) {
-            $.each(function (n, el) {
-                $('#teamsContainer').append('<li>' + el.name + '</li>')
-            })
-        },
-        error: function (xhr) {
-            alert('error');
-        }
-    });
-</script>
 
 
 <script>
@@ -203,5 +182,35 @@
             ]
 
         });
+    });
+</script>
+
+
+<script>
+    $.ajax({
+        url: '@Url.Action("GetTeamsWithFixtures", "FPLAPI")',
+        dataType: "json",
+        type: "GET",
+        contentType: 'application/json; charset=utf-8',
+        async: true,
+        processData: false,
+        cache: true,
+        delay: 15,
+        success: function (d) {
+            console.log(d);
+            $('#teamsContainer').html('');
+            $.each(d, function (n, el) {
+                
+                $('#teamsContainer').append('<li  id="' + el.code + '"> <span class="fixtureLi">' + el.name.toUpperCase() + ': ' + el.Upcomingdifficulty + '</span> </li>')
+
+                $.each(el.UpcomingFixtures, function (n2, el2) {
+                    $('#' + el.code).append('<span class="diff_'+el2.difficulty+'"> ' + el2.opponent_short_name + ' </span>')
+                })
+            })
+
+        },
+        error: function (xhr) {
+            alert('error');
+        }
     });
 </script>

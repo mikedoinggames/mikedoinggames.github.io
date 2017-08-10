@@ -66,7 +66,13 @@ namespace FPL_Track_Test.Controllers
             return Json(teams, JsonRequestBehavior.AllowGet);
         }
 
-
+        [HttpGet]
+        public JsonResult GetTeamsWithFixtures()
+        {
+            APICallers ac = new APICallers();
+            List<Team> teams = ac.GetTeamsWithFixtures();
+            return Json(teams, JsonRequestBehavior.AllowGet);
+        }
 
 
 

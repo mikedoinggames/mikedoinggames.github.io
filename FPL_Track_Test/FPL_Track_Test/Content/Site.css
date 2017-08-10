@@ -108,3 +108,38 @@ textarea {
     margin-top: 0px !important;
     font-size: 180%;
 }
+
+ #teamsContainer{
+     width: 50%;
+     padding: 2%;
+     border: 1px solid black;
+     height: 400px;
+     overflow: scroll;
+     text-align: center;
+ }
+
+ #teamsContainer > li{
+    padding:1%;
+    list-style: none;
+    font-size: 130%;
+    text-align: left;
+    width: 2150px;
+}
+
+ #teamsContainer > img{
+    width: 300px;
+    height: 300px;
+}
+
+ #teamsContainer span{
+      width: 50px;
+      display: inline-block;
+      text-align: center;
+  }
+
+ .fixtureLi{
+     width: 200px !important;
+     display: inline-block;
+     text-align: left !important;
+ }
+

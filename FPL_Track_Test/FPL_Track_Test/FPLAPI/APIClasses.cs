@@ -117,19 +117,30 @@ namespace FPL_Track_Test.FPLAPI
 
         public string team_h_name { get { return APICallers.GetTeamById((int)team_h).name; } }
         public string team_a_name { get { return APICallers.GetTeamById((int)team_a).name; } }
+
+        public string opponent_short_name { get {
+                 if (player_team == team_h)
+                {
+                    return APICallers.GetTeamById((int)team_a).short_name;
+                }
+                else 
+                {
+                    return APICallers.GetTeamById((int)team_h).short_name;
+                }
+            } }
         public int difficulty
         {
             get
             {
                 if (player_team == team_h)
                 {
-                    return Math.Abs( (int)team_h_difficulty );
+                    return Math.Abs((int)team_h_difficulty);
                 }
-                else
+                else if (player_team == team_a)
                 {
                     return Math.Abs((int)team_a_difficulty);
                 }
-
+                else return 0;
 
             }
         }
@@ -161,6 +172,8 @@ namespace FPL_Track_Test.FPLAPI
         public int strength_defence_home;
         public int strength_defence_away;
         public int team_division;
+        public List<Fixture> UpcomingFixtures;
+        public float Upcomingdifficulty;
     }
 
 }

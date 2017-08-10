@@ -72,6 +72,28 @@ namespace FPL_Track_Test.FPLAPI
             JToken jT = jObj["teams"];
             return jT.ToObject<List<Team>>();
         }
+        public List<Team> GetTeamsWithFixtures()
+        {
+            string json = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath(@"~/Data/0.json"));
+
+            JObject jObj = JObject.Parse(json);
+            JToken jT = jObj["teams"];
+            List<Team> result =  jT.ToObject<List<Team>>();
+
+            List<Fixture> fixtures;
+            foreach(Team t in result)
+            {
+                fixtures = GetFixtures();
+                t.UpcomingFixtures = fixtures.Where(f => f.team_a == t.id || f.team_h == t.id).ToList();
+                foreach(Fixture f in t.UpcomingFixtures)
+                {
+                    f.player_team = t.id;
+                }
+                t.Upcomingdifficulty = (float)t.UpcomingFixtures.Take(5).Sum(tm => tm.difficulty) / 5f;
+                fixtures.Clear();
+            }
+            return result.OrderByDescending(r => r.strength).OrderBy(r => r.Upcomingdifficulty).ToList() ;
+        }
 
         public static Team GetTeam(int id)
         {
